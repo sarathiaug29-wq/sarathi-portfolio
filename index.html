@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sarathi | Java Full Stack Developer</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="nav">
+    <div class="nav-left">
+      <span class="logo-dot"></span>
+      <span class="logo-text">Sarathi.dev</span>
+    </div>
+    <nav class="nav-links">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#blog">Blog</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button id="theme-toggle" class="theme-toggle">☾</button>
+  </header>
+
+  <main>
+    <section class="hero" id="top">
+      <div class="hero-text">
+        <p class="eyebrow">Java Full Stack Developer</p>
+        <h1>Hi, I’m <span class="accent">Sarathi</span>.</h1>
+        <p class="hero-sub">
+          I build predictable, end-to-end systems using
+          <strong>Java, Spring Boot, and MySQL</strong> on the backend, paired with clean,
+          responsive interfaces on the frontend.
+        </p>
+        <div class="hero-actions">
+          <a href="src/pdf/Sarathi-Resume-ATS.pdf" download class="btn primary">Download Resume</a>
+          <a href="#projects" class="btn ghost">View Projects</a>
+        </div>
+      </div>
+      <div class="hero-card">
+        <div class="hero-tag">Currently exploring</div>
+        <h2>Microservices & Scalable Backends</h2>
+        <p>
+          I’m expanding into microservices with Spring Cloud, Dockerized deployments,
+          and tighter CI/CD workflows.
+        </p>
+        <ul class="hero-meta">
+          <li><span>Backend</span>Java · Spring Boot · REST APIs</li>
+          <li><span>Frontend</span>HTML · CSS · JS · React (basic)</li>
+          <li><span>Database</span>MySQL · Joins · Indexing</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <h2 class="section-title">Who I Am</h2>
+      <div class="grid-2">
+        <div>
+          <p>
+            I’m <strong>Sarathi</strong>, a Java Full Stack Developer who focuses on building systems that behave the
+            same way every time — fast, stable, and predictable. I work across backend and frontend because I don’t like
+            guessing why something broke. If there’s an issue, I want to understand it end to end.
+          </p>
+          <p>
+            My strength is backend logic with <strong>Spring Boot</strong>, paired with clean UIs built using
+            <strong>HTML, CSS, JavaScript</strong>, and React when needed. I prefer simple, maintainable architecture
+            over clever one-off solutions.
+          </p>
+        </div>
+        <div>
+          <h3>My Mission</h3>
+          <p>
+            Build software that actually solves problems, not create new ones. No over-engineering, no unnecessary
+            complexity, and no features that collapse when real users start using them.
+          </p>
+          <p>
+            Whether it’s a REST API or a UI flow, my goal is to make each layer stable, understandable, and easy for
+            other developers to build on.
+          </p>
+        </div>
+      </div>
+
+      <div class="section-subgrid">
+        <div>
+          <h3>My Journey</h3>
+          <p>
+            I started by fixing bugs in small student projects — small issues that forced me to understand what was
+            happening behind the scenes. That pulled me into backend logic, which led to Spring Boot, API design,
+            authentication, and database modeling.
+          </p>
+          <p>
+            Once the backend made sense, I moved to the frontend to understand the full request–response cycle:
+            how data is fetched, transformed, displayed, and interacted with.
+          </p>
+          <p>
+            Over time, I’ve worked on:
+          </p>
+          <ul class="bullet-list">
+            <li>CRUD systems with server-side validation</li>
+            <li>Authentication with role-based access</li>
+            <li>Pagination, filtering, and searching</li>
+            <li>Responsive UIs that don’t fight the user</li>
+          </ul>
+        </div>
+        <div>
+          <h3>My Approach</h3>
+          <ul class="pill-list">
+            <li><strong>Clarity over cleverness</strong><br />Readable, predictable code saves time for everyone.</li>
+            <li><strong>Structure first, features second</strong><br />A stable architecture prevents most future bugs.</li>
+            <li><strong>Consistency creates quality</strong><br />Naming, formatting, and API patterns all matter.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section">
+      <h2 class="section-title">Skills & Tools</h2>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <h3>Backend</h3>
+          <p>Java · Spring Boot · Hibernate · REST APIs · Maven</p>
+          <p class="muted">Layered architecture, DTO mapping, service-first design.</p>
+        </div>
+        <div class="skill-card">
+          <h3>Frontend</h3>
+          <p>HTML · CSS · JavaScript · Basic React</p>
+          <p class="muted">Responsive layouts and clean, minimal UIs.</p>
+        </div>
+        <div class="skill-card">
+          <h3>Database</h3>
+          <p>MySQL</p>
+          <p class="muted">Joins, indexing, normalization, stored procedures.</p>
+        </div>
+        <div class="skill-card">
+          <h3>Dev Tools</h3>
+          <p>Git, GitHub, Postman, Docker (basics), VS Code, IntelliJ</p>
+          <p class="muted">Efficient local debugging and collaboration.</p>
+        </div>
+        <div class="skill-card">
+          <h3>Concepts</h3>
+          <p>MVC, API security basics, error handling, logging, clean code.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <h2 class="section-title">Featured Project</h2>
+      <div class="project-card">
+        <div class="project-media">
+          <img src="src/png/online-bookstore-home.png" alt="Online Bookstore Screenshot" />
+        </div>
+        <div class="project-content">
+          <h3>Online Bookstore Platform</h3>
+          <p class="project-tag">Spring Boot · MySQL · Full Stack</p>
+          <p>
+            A full-stack e-commerce application that allows users to browse, search, and purchase books online.
+            It supports role-based access for customers and admins, and includes secure authentication, cart,
+            checkout, and order tracking.
+          </p>
+          <ul class="bullet-list">
+            <li>User registration, login, and profile management</li>
+            <li>Admin module for managing books, categories, and orders</li>
+            <li>Book search by title, author, category, and price</li>
+            <li>Cart, checkout, and order history</li>
+            <li>Designed for scalability with a clear database schema</li>
+          </ul>
+          <div class="project-meta">
+            <div>
+              <span>Backend</span>
+              Java, Spring Boot, Hibernate, REST APIs
+            </div>
+            <div>
+              <span>Database</span>
+              MySQL (users, books, cart, orders, order_items, categories)
+            </div>
+            <div>
+              <span>Frontend</span>
+              HTML, CSS, JavaScript (custom UI)
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="blog" class="section">
+      <h2 class="section-title">Writing</h2>
+      <div class="blog-grid">
+        <article class="blog-card">
+          <h3>Why Backend Architecture Fails Before the Code Does</h3>
+          <p>
+            Most backend issues don’t start with bad code — they start with poor structure. When controllers, services,
+            and repositories are mixed together, debugging becomes guesswork instead of analysis.
+          </p>
+          <p class="muted">
+            A few hours spent designing clean layers often saves days of painful debugging later.
+          </p>
+        </article>
+        <article class="blog-card">
+          <h3>The Hidden Cost of Weak Database Design</h3>
+          <p>
+            Slow applications are not always caused by inefficient Java code. A missing index, unnecessary joins, or
+            denormalized tables can quietly become the real bottleneck.
+          </p>
+          <p class="muted">
+            Good schema design is a performance feature, not an afterthought.
+          </p>
+        </article>
+        <article class="blog-card">
+          <h3>Full Stack Doesn’t Mean “Learn Everything”</h3>
+          <p>
+            Being full stack is less about knowing every framework and more about understanding the full path of data —
+            from request, through backend logic, to database, and back to the UI.
+          </p>
+          <p class="muted">
+            Once that pipeline is clear, new tools become easier to pick up when needed.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <h2 class="section-title">Contact</h2>
+      <p>
+        Reach out if you’d like to discuss an opportunity, a project, or just exchange ideas about backend design and
+        full-stack development.
+      </p>
+      <div class="contact-row">
+        <div>
+          <p><strong>Email</strong></p>
+          <p class="muted">sarathiaug29@gmail.com</p>
+        </div>
+        <div>
+          <p><strong>GitHub</strong></p>
+          <p class="muted">github.com/sarathiaug29-wq</p>
+        </div>
+        <div>
+          <p><strong>Location</strong></p>
+          <p class="muted">India</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> Sarathi. Built with Java, Spring Boot, and a lot of debugging.</p>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>

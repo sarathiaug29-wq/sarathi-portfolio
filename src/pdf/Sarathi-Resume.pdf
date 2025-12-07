@@ -1,0 +1,56 @@
+Sarathi
+Java Full Stack Developer
+Email: sarathiaug29@gmail.com
+GitHub: https://github.com/sarathiaug29-wq
+Location: India
+
+SUMMARY
+--------
+Java Full Stack Developer with hands-on experience building end-to-end web applications using Java, Spring Boot, and MySQL on the backend with HTML, CSS, and JavaScript on the frontend. Strong in REST API design, database modeling, and writing clean, maintainable code. Comfortable working across the full stack, from database to UI, with a focus on predictable behavior and stable architecture.
+
+TECHNICAL SKILLS
+-----------------
+Programming: Java, Java Collections, OOP, Python (basics)
+Backend: Spring Boot, Spring MVC, REST APIs, Hibernate, Maven
+Frontend: HTML, CSS, JavaScript, basic React
+Database: MySQL, SQL, joins, indexing, normalization, stored procedures
+Tools: Git, GitHub, Postman, Docker (basics), VS Code, IntelliJ IDEA
+Concepts: MVC architecture, API design, authentication and authorization, role-based access, error handling, logging, clean code practices
+
+PROJECTS
+---------
+Online Bookstore Platform  |  Java, Spring Boot, MySQL, HTML, CSS, JavaScript
+- Built a full-stack online bookstore application with separate roles for Customer and Admin.
+- Implemented user registration, login, and profile management using Spring Boot and MySQL.
+- Designed RESTful APIs for book listing, search, cart operations, and order placement.
+- Created an Admin module for adding, editing, and deleting books and managing categories.
+- Implemented cart, checkout, and order history with proper mapping between orders and order items.
+- Designed the database schema using tables like users, books, cart, orders, order_items, and categories.
+- Ensured input validation, clear error messages, and predictable behavior across the system.
+
+Student Project Utilities (CRUD and Authentication Modules)  |  Java, Spring Boot, MySQL
+- Developed reusable CRUD modules for handling student records with validation and error handling.
+- Implemented role-based access so that only authorized users can update or delete records.
+- Structured the application in layers (Controller, Service, Repository) to keep the code testable and maintainable.
+
+Bug-Fix and Refactor Exercises  |  Java, SQL
+- Took existing small Java and SQL-based projects and identified bugs in business logic, queries, and input handling.
+- Refactored code to follow clean code standards and improved readability, logging, and error handling.
+- Improved performance by simplifying SQL queries and reducing unnecessary operations.
+
+EDUCATION
+----------
+Bachelor’s degree (in progress / completed) – Computer Science or related field
+- Coursework: Data Structures, Object-Oriented Programming, Database Management Systems, Computer Networks.
+
+STRENGTHS
+----------
+- Strong understanding of how backend, database, and frontend interact in a full-stack application.
+- Able to read and debug existing code and improve it instead of rewriting everything.
+- Focused on building predictable, stable systems rather than over-complicated designs.
+- Comfortable collaborating using Git and reviewing code with other developers.
+
+INTERESTS
+----------
+- Backend system design, Spring Boot best practices, improving database performance.
+- Learning more about microservices, Spring Cloud, Docker, and CI/CD pipelines.
